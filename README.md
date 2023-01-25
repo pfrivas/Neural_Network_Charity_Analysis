@@ -21,14 +21,14 @@ The purpose of this analysis is to help a  nonprofit foundation, Alphabet Soup, 
 ### Data Preprocessing
 
 - **What variable(s) are considered the target(s) for your model?**
- - The column IS_SUCCESSFUL was considered the target for the model because it contained binary data about if the donations were effectively used. 
+  -The column IS_SUCCESSFUL was considered the target for the model because it contained binary data about if the donations were effectively used. 
  
 - **What variable(s) are considered to be the features for your model?**
- - There were columns that are the features for the model because they encode the categorical variables, and were split into training and testing datasets and were standardized.
- - These columns were APPLICATION_TYPE, AFFILIATION, CLASSIFICATION, USE_CASE, ORGANIZATION, STATUS, INCOME_AMT, SPECIAL_CONSIDERATIONS, and ASK_AMT
+  - There were columns that are the features for the model because they encode the categorical variables, and were split into training and testing datasets and were standardized.
+  - These columns were APPLICATION_TYPE, AFFILIATION, CLASSIFICATION, USE_CASE, ORGANIZATION, STATUS, INCOME_AMT, SPECIAL_CONSIDERATIONS, and ASK_AMT
 
 - **What variable(s) are neither targets nor features, and should be removed from the input data?**
- - The columns EIN and NAME were identification information and were removed from the input data.
+  - The columns EIN and NAME were identification information and were removed from the input data.
 
 ### Compiling, Training, and Evaluating the Model
 
