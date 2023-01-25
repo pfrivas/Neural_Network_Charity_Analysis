@@ -14,7 +14,7 @@ The purpose of this analysis is to help a  nonprofit foundation, Alphabet Soup, 
 ### Resources
 - Data Source: [charity_data.csv](https://github.com/pfrivas/Neural_Network_Charity_Analysis/blob/main/Challenge/charity_data.csv)
 - Software: Pandas, NumPy, Scikit-Learn, Tensorflow, Anaconda Navigator, Jupyter Notebook
-- Jupyter Notebooks: [AlphabetSoupCharity.ipynb](https://github.com/pfrivas/Neural_Network_Charity_Analysis/blob/main/Challenge/AlphabetSoupCharity.ipynb) and [AlphabetSoupCharity.ipynb](https://github.com/pfrivas/Neural_Network_Charity_Analysis/blob/main/Challenge/AlphabetSoupCharity_Optimization.ipynb)
+- Jupyter Notebooks: [AlphabetSoupCharity.ipynb](https://github.com/pfrivas/Neural_Network_Charity_Analysis/blob/main/Challenge/AlphabetSoupCharity.ipynb) and [AlphabetSoupCharity_Optimization.ipynb](https://github.com/pfrivas/Neural_Network_Charity_Analysis/blob/main/Challenge/AlphabetSoupCharity_Optimization.ipynb)
 
 ## Results:
 
@@ -46,7 +46,7 @@ The purpose of this analysis is to help a  nonprofit foundation, Alphabet Soup, 
 
 - **How many neurons, layers, and activation functions did you select for your neural network model, and why?**
   - The deep-learning neural network model wass made of two hidden layers with 80 and 30 neurons
-  - The RelU model was used for the hidden layers in order to speed up the training process
+  - The ReLU model was used for the hidden layers in order to speed up the training process
   - The Sigmoid activation function was used for the output layer because it was made of a unique neuron and had a binary classification
 
 - **Were you able to achieve the target model performance?**
@@ -134,5 +134,7 @@ The purpose of this analysis is to help a  nonprofit foundation, Alphabet Soup, 
 ## Summary:
 
 ### Summary of the results
+The deep learning neural network model did not reach the target of 75% accuracy. Considering that this target level is pretty average we could say that the model is not outperforming.
 
 ### Recommendation on using a different model to solve the classification problem
+A recommendation on using a different model to solve the classification problem would be to use a supervised machine learning model that is useful for a binary classification situation. A model that would work would be the Random Forest Classifier because this model randomly samples the preprocessed data and builds several smaller and simpler decision trees. Benefits of using a random forest model include how robust it is against overfitting of the data because all of the weak learners are trained on different pieces of the data, it can be used to rank the importance of input variables, it is robust to outliers and nonlinear data, and it can run efficiently on large datasets.
