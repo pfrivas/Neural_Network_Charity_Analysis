@@ -7,7 +7,7 @@
 The purpose of this analysis is to help a  nonprofit foundation, Alphabet Soup, analyze the impact of their donations and vetting potential recipients by predicting which organizations are worth donating to and which are too high risk. This was done through a design of a deep learning neural network that evaluated all types of input data and produces a clear decision making result using the Python TensorFlow library. The steps in designing the deep learning neural network involved 
  - (1) Preprocessing Data for a Neural Network Model using Pandas and the Scikit-Learn’s StandardScaler() function. 
  - (2) Compiling, Training, and Evaluating the Model using Tensorflow Keras
- - and (3) Optimizing the Model
+ - (3) Optimizing the Model
 
 
 
