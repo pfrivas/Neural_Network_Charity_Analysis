@@ -12,9 +12,9 @@ The purpose of this analysis is to help a  nonprofit foundation, Alphabet Soup, 
 
 
 ### Resources
-- Data Source: [charity_data.csv]()
+- Data Source: [charity_data.csv](https://github.com/pfrivas/Neural_Network_Charity_Analysis/blob/main/Challenge/charity_data.csv)
 - Software: Pandas, NumPy, Scikit-Learn, Tensorflow, Anaconda Navigator, Jupyter Notebook
-- Jupyter Notebooks: [AlphabetSoupCharity.ipynb]() and [AlphabetSoupCharity.ipynb]()
+- Jupyter Notebooks: [AlphabetSoupCharity.ipynb](https://github.com/pfrivas/Neural_Network_Charity_Analysis/blob/main/Challenge/AlphabetSoupCharity.ipynb) and [AlphabetSoupCharity.ipynb](https://github.com/pfrivas/Neural_Network_Charity_Analysis/blob/main/Challenge/AlphabetSoupCharity_Optimization.ipynb)
 
 ## Results:
 
