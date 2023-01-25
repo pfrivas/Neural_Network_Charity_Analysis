@@ -61,7 +61,8 @@ The purpose of this analysis is to help a  nonprofit foundation, Alphabet Soup, 
 
         nn = tf.keras.models.Sequential()
     ```
-     ![Neurons_Added](https://github.com/pfrivas/Neural_Network_Charity_Analysis/blob/main/Images/Additional%20Neurons%20added%20to%20Hidden%20Layers.png)
+    - Output:
+    - ![Neurons_Added](https://github.com/pfrivas/Neural_Network_Charity_Analysis/blob/main/Images/Additional%20Neurons%20added%20to%20Hidden%20Layers.png)
      
   - Additional hidden layers are added
     - Code:
@@ -97,7 +98,8 @@ The purpose of this analysis is to help a  nonprofit foundation, Alphabet Soup, 
          # Check the structure of the model
          nn.summary()
      ```
-      ![Hidden_Layers_Added](https://github.com/pfrivas/Neural_Network_Charity_Analysis/blob/main/Images/Additional%20Hidden%20Layers%20are%20Added.png)
+       - Output:
+      - ![Hidden_Layers_Added](https://github.com/pfrivas/Neural_Network_Charity_Analysis/blob/main/Images/Additional%20Hidden%20Layers%20are%20Added.png)
      
   - The activation function of hidden layers or output layers is changed for optimization 
     - Code:
@@ -123,7 +125,8 @@ The purpose of this analysis is to help a  nonprofit foundation, Alphabet Soup, 
           # Check the structure of the model
           nn.summary()
       ```
-      ![Activation_Func_Changed](https://github.com/pfrivas/Neural_Network_Charity_Analysis/blob/main/Images/Activation%20Function%20Changed.png)
+      - Output:
+      - ![Activation_Func_Changed](https://github.com/pfrivas/Neural_Network_Charity_Analysis/blob/main/Images/Activation%20Function%20Changed.png)
       
 ## Summary:
 
