@@ -134,7 +134,7 @@ The purpose of this analysis is to help a  nonprofit foundation, Alphabet Soup, 
 ## Summary:
 
 ### Summary of the results
-The deep learning neural network model did not reach the target of 75% accuracy. Considering that this target level is pretty average we could say that the model is not outperforming.
+Even after optimization through adding neurons, hidden layers, and changing the activation functions, the deep learning neural network model did not reach the target of 75% accuracy probably due to the data being overfitted.
 
 ### Recommendation on using a different model to solve the classification problem
-A recommendation on using a different model to solve the classification problem would be to use a supervised machine learning model that is useful for a binary classification situation. A model that would work would be the Random Forest Classifier because this model randomly samples the preprocessed data and builds several smaller and simpler decision trees. Benefits of using a random forest model include how robust it is against overfitting of the data because all of the weak learners are trained on different pieces of the data, it can be used to rank the importance of input variables, it is robust to outliers and nonlinear data, and it can run efficiently on large datasets.
+A recommendation on using a different model to solve the classification problem would be to use a supervised machine learning model that is useful for a binary classification situation. A model that would work would be the Random Forest Classifier because this model randomly samples the preprocessed data and builds several smaller and simpler decision trees. Benefits of using the supervised machine learning random forest model includes it having a faster performance than neural networks and can avoid the data from being overfitted due to the weak learners being trained on different pieces of the data.
