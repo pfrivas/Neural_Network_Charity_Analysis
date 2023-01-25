@@ -45,6 +45,9 @@ The purpose of this analysis is to help a  nonprofit foundation, Alphabet Soup, 
 ### Compiling, Training, and Evaluating the Model
 
 - **How many neurons, layers, and activation functions did you select for your neural network model, and why?**
+  - The deep-learning neural network model wass made of two hidden layers with 80 and 30 neurons
+  - The RelU model was used for the hidden layers in order to speed up the training process
+  - The Sigmoid activation function was used for the output layer because it was made of a unique neuron and had a binary classification
 
 - **Were you able to achieve the target model performance?**
   - The model accuracy is under 75%. This is not a satisfying performance to help predict the outcome of the charity donations.
